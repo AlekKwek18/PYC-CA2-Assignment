@@ -9,7 +9,22 @@
 # ADMIN NO: 1804247                                            |
 # YEAR: 2019                                                   |
 # ==============================================================
-#source file: simClient.py
+# source file: p1804247Client.py
+# ASSIGNMENT OUTLINE 
+# This application is a continuation of the assignment 1
+# and simulate the sales summary reporting in a networking mode.
+# The application enables the users to request the sales summary of a city through a client to the server, 
+# then print out an overall summary of the sales report for that city.
+# The input data consists of city name
+# The application enables the users view the sales data of a city.
+# Note that the sales summary for each city is stored in this directory
+# /home/st2411/Misc/reports/
+# To compile the program
+# STEP 1 : ./p1804247Server.py OR python3 p1804247Server.py
+# STEP 2 : ./p1804247Client.py OR python3 p1804247Client.py
+# supporting files
+# p1804247Helper.py
+
 import socket
 import sys
 # Create new socket for network connection
@@ -47,4 +62,3 @@ while True:
             break
  print("Bye Bye")
  
-

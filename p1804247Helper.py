@@ -9,7 +9,8 @@
 # ADMIN NO: 1804247                                            |
 # YEAR: 2019                                                   |
 # ==============================================================
-
+#source file: p1804247Helper.py
+# Define all the helper functions for the p1804247Server.py 
 # IMPORT
 import socket
 import os
@@ -17,8 +18,8 @@ import re as r
 import operator
 import time as t
 import datetime as d
-
-#    It maintains the client session (and keep echos back the message to the client),
+#   This source file is resona
+#   It maintains the client session (and keep echos back the message to the client),
 #   until the client sends in a 'x'.
 #   The client request handling is now refactored into an independent
 #   function, handler.
@@ -352,10 +353,3 @@ def handler(con):
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serversocket.bind(('0.0.0.0', 8089))
 serversocket.listen(5) # become a server socket, maximum 5 connections
-while True:
-    print("waiting a new call at accept()")
-    connection, address = serversocket.accept()
-    if handler(connection) == 'x':
-        break; 
-serversocket.close()
-print("Server stops")
