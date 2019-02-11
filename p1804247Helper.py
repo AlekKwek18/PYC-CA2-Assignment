@@ -9,7 +9,7 @@
 # ADMIN NO: 1804247                                            |
 # YEAR: 2019                                                   |
 # ==============================================================
-#source file: p1804247Helper.py
+# source file: p1804247Helper.py
 # Define all the helper functions for the p1804247Server.py 
 # IMPORT
 import socket
@@ -18,7 +18,7 @@ import re as r
 import operator
 import time as t
 import datetime as d
-#   This source file is resona
+#   ===================================================================================
 #   It maintains the client session (and keep echos back the message to the client),
 #   until the client sends in a 'x'.
 #   The client request handling is now refactored into an independent
