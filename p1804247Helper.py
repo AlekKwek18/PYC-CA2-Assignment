@@ -239,7 +239,7 @@ def GenerateReport(cityName):
            datafile.close() #close the file after processing has been completed
            return messages #return the message that will be displayed to client
         else:
-                messages = "\nInvalid City Name. Please Try Again\n" #display message to client
+                messages = "\nInvalid City Name. Please Try Again" #display message to client
                 return messages #return the message that will be displayed to client
     def average_sales(): 
         global totalItems
