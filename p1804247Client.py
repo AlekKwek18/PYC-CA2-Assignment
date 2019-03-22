@@ -10,6 +10,8 @@
 # YEAR: 2019                                                   |
 # ==============================================================
 # source file: p1804247Client.py
+# UPDATE: 23 March 2019
+# GRADES FOR THIS ASSIGNMENT: A
 # ASSIGNMENT OUTLINE 
 # This application is a continuation of the assignment 1
 # and simulate the sales summary reporting in a networking mode.
